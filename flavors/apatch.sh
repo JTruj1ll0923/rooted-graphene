@@ -2,7 +2,7 @@
 # Patch the target OTA's stock boot image with GitHub-built KernelPatch.
 # Enable with SKIP_APATCH=false.
 
-SKIP_APATCH=${SKIP_APATCH:-'true'}
+SKIP_APATCH=${SKIP_APATCH:-'false'} # ponytail: on by default in this fork; 'true' to skip apatch builds
 
 # Switch to bmax121 once upstream publishes binaries with the required fixes.
 KERNELPATCH_OWNER=${KERNELPATCH_OWNER:-'xeropresence'}
