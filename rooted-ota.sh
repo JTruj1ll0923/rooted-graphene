@@ -58,7 +58,7 @@ UPLOAD_TEST_OTA=${UPLOAD_TEST_OTA:-false}
 
 OTA_CHANNEL=${OTA_CHANNEL:-stable-security-preview} # Alternative: 'stable' or 'alpha'
 NO_COLOR=${NO_COLOR:-''}
-OTA_BASE_URL="https://releases.grapheneos.org"
+OTA_BASE_URL="https://update.mosaicos.io"
 
 # renovate: datasource=github-releases packageName=chenxiaolong/avbroot versioning=semver
 AVB_ROOT_VERSION=3.39.1
