@@ -373,7 +373,7 @@ function patchOTAs() {
     curl --fail -sL "https://github.com/chenxiaolong/OEMUnlockOnBoot/releases/download/v${OEMUNLOCKONBOOT_VERSION}/OEMUnlockOnBoot-${OEMUNLOCKONBOOT_VERSION}-release.zip.sig" > .tmp/oemunlockonboot.zip.sig
   fi
   if ! ls ".tmp/my-avbroot-setup" >/dev/null 2>&1; then
-    git clone https://github.com/chenxiaolong/my-avbroot-setup .tmp/my-avbroot-setup
+    git clone https://github.com/JTruj1ll0923/my-avbroot-setup .tmp/my-avbroot-setup
     (cd .tmp/my-avbroot-setup && git checkout ${PATCH_PY_COMMIT})
   fi
 
